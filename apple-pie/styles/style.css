@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  font-family: sans-serif;
 }
 
 *, *:before, *:after {
@@ -20,5 +21,17 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-/* STYLES */
-/* Write your CSS below */
+.hero {
+  background-image: url('../images/apple-pie.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 50px;
+  position: relative;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+
+}
